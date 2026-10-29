@@ -6,7 +6,7 @@ O Portal Halloween é um projeto desenvolvido como trabalho final da disciplina 
 
 O objetivo é criar um site com temática de Halloween, apresentando filmes e séries de terror, além de uma página de cadastro demonstrativo.
 
-O projeto também tem como objetivo praticar o uso do Git e GitHub, trabalhando com branches, commits, merges, Pull Requests, tags e releases.
+O projeto foi desenvolvido utilizando HTML e CSS, aplicando conhecimentos de versionamento, organização de arquivos e trabalho com branches no Git e GitHub.
 
 ## 🛠️ Tecnologias utilizadas
 
@@ -16,59 +16,86 @@ O projeto também tem como objetivo praticar o uso do Git e GitHub, trabalhando 
 - GitHub
 - Visual Studio Code
 
-## 📂 Estrutura atual do projeto
+## 📂 Estrutura do projeto
 
 ```text
 Trab_final/
 │
 ├── index.html
+├── series.html
+├── cadastro.html
 ├── .gitignore
 └── Readme.md
 ```
 
+## 📄 Páginas do projeto
+
+- **index.html:** página inicial do Portal Halloween.
+- **series.html:** página dedicada às séries de terror.
+- **cadastro.html:** página de cadastro demonstrativo.
+
 ## 🚀 Como executar o projeto
 
-1. Baixe ou clone o repositório.
-2. Abra a pasta `Trab_final`.
+1. Clone o repositório:
+   
+   `git clone https://github.com/Antonygab077/Trab_final.git`
+
+2. Abra a pasta do projeto no Visual Studio Code.
 3. Abra o arquivo `index.html` em um navegador.
-4. Explore a página inicial do portal.
+4. Navegue pelas páginas do portal.
 
-## 🌿 Planejamento de branches
+## 🌿 Organização das branches
 
-As seguintes branches serão utilizadas durante o desenvolvimento:
+Foram utilizadas as seguintes branches durante o desenvolvimento:
 
-- `main`: versão principal e estável do projeto.
-- `develop`: integração das funcionalidades.
-- `feature/series`: desenvolvimento da página de séries.
-- `feature/cadastro`: desenvolvimento da página de cadastro.
-- `fix/correcao`: realização de uma correção no projeto e resolução de conflito.
+- **main:** versão principal e final do projeto.
+- **develop:** integração das funcionalidades.
+- **feature/series:** desenvolvimento da página de séries.
+- **feature/cadastro:** desenvolvimento da página de cadastro.
+- **fix/correcao:** realização de correções no projeto.
 
-## 🔄 Estratégia de Pull Requests
+## 🔄 Pull Requests
 
-Serão utilizados Pull Requests para integrar as funcionalidades desenvolvidas nas branches de trabalho à branch `develop`.
+Foram utilizados Pull Requests para integrar as funcionalidades desenvolvidas em branches separadas.
 
-Depois da integração e revisão, a branch `develop` será integrada à `main`.
+Esse processo permitiu organizar as alterações, revisar o código e realizar a integração das páginas ao projeto principal.
 
-## 🏷️ Histórico de versões
+## ⚙️ Teste de conflitos
 
-- **v0.1.0:** versão inicial, contendo `index.html`, `Readme.md` e `.gitignore`.
-- **v1.0.0:** versão final, com todas as páginas e funcionalidades previstas no projeto.
+Foi realizado um teste de conflito durante o desenvolvimento do projeto, com posterior resolução utilizando os recursos do Git.
 
-*As versões serão criadas e publicadas nas etapas correspondentes do trabalho.*
+Essa atividade permitiu praticar o gerenciamento de alterações simultâneas e a integração de código.
 
-## 📋 Status do desenvolvimento
+## 🏷️ Versionamento e releases
 
-- [x] Criação do arquivo `index.html`.
+Foram criadas duas versões para registrar a evolução do projeto:
+
+- **v0.1.0:** versão inicial do projeto, contendo a estrutura básica e a página inicial.
+- **v1.0.0:** versão final do projeto, contendo as páginas desenvolvidas e as melhorias realizadas.
+
+## ✅ Status do desenvolvimento
+
+- [x] Criação do repositório no GitHub.
+- [x] Criação da página inicial.
+- [x] Desenvolvimento da página de séries.
+- [x] Desenvolvimento da página de cadastro.
 - [x] Criação do arquivo `.gitignore`.
 - [x] Criação do README.
-- [ ] Criação da branch `develop`.
-- [ ] Desenvolvimento da página de séries.
-- [ ] Desenvolvimento da página de cadastro.
-- [ ] Correção e resolução de conflito.
-- [ ] Publicação no GitHub.
-- [ ] Integração por Pull Requests.
-- [ ] Criação das tags e releases.
+- [x] Criação e utilização das branches.
+- [x] Integração utilizando Pull Requests.
+- [x] Realização de teste de conflito.
+- [x] Resolução do conflito.
+- [x] Criação da tag `v0.1.0`.
+- [x] Criação da tag `v1.0.0`.
+- [x] Publicação das releases.
+- [x] Finalização do projeto.
+
+## 🔗 Repositório
+
+[GitHub — Portal Halloween](https://github.com/Antonygab077/Trab_final)
 
 ---
 
-**Projeto acadêmico — Trabalho Final de Git e GitHub.**
+**Trabalho Final de Git e GitHub**
+
+Projeto acadêmico desenvolvido para praticar HTML, CSS, Git e GitHub.
